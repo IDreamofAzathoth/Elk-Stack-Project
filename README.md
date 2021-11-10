@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: /etc/ansible/filebeat-playbook.yml_
+  - _TODO: Enter the playbook file /etc/ansible/filebeat-playbook.yml_
 
 This document contains the following details:
 - Description of the Topologu
@@ -22,7 +22,7 @@ This document contains the following details:
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
 Load balancing ensures that the application will be highly _____, in addition to restricting _____ to the network.
-- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box?Load balancers offer an organization added defense against DDoS attacks by directing attack traffic. The advantage of a jump box is that it allows a user access from a single access point that can be monitored and secured._
+- _TODO: What aspect of security do load balancers protect? What is the advantage of a jump box? Load balancers offer an organization added defense against DDoS attacks by directing attack traffic. The advantage of a jump box is that it allows a user access from a single access point that can be monitored and secured._
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _____ and system _____.
 - _TODO: What does Filebeat watch for? Filebeat monitors information in the file system for instances where it has been changed and when that was._
@@ -43,7 +43,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the _____ machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: Add whitelisted IP addresses_
+- _TODO: Add whitelisted IP addresses. Home Public IP Address_
 
 Machines within the network can only be accessed by _____.
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address? The Jump-Box-Provisioner VNet IP 10.0.0.4_
