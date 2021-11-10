@@ -82,9 +82,9 @@ We have installed the following Beats on these machines:
 These Beats allow us to collect the following information from each machine:
 - _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see._
 - Filebeats logs the authentication traffice to Web-1.
-[Web-1 Graphic](https://github.com/IDreamofAzathoth/Elk-Stack-Project/blob/master/images/Kibana_Agent_Hostname_Fileset.Name.jpg)
+(https://github.com/IDreamofAzathoth/Elk-Stack-Project/blob/master/images/Kibana_Agent_Hostname_Fileset.Name.jpg)
 - Filebeats logs the successfull authentication attempts on Web-2.
-[Web-2 Graphic](https://github.com/IDreamofAzathoth/Elk-Stack-Project/blob/master/images/Kibana_Agent_Hostname_Event_Type.jpg)
+(https://github.com/IDreamofAzathoth/Elk-Stack-Project/blob/master/images/Kibana_Agent_Hostname_Event_Type.jpg)
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
